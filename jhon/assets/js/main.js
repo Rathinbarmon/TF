@@ -58,7 +58,7 @@
 		   $('.home-arrow-down a').parent().removeClass('active');
 		var $anchor = $($(this).attr('href')).offset().top - 60;
 		   $(this).parent().addClass('active');
-		$('body, html').animate({scrollTop : $anchor}, 800);
+			$('body, html').animate({scrollTop : $anchor}, 800);
 					 event.preventDefault();
 		return false;
 	});

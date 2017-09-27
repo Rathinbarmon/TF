@@ -1,11 +1,9 @@
 /*-----------------------------------------------------------------------------------
-
     Template Name:  Jhon
-    Template URI: 
+    Template URI: http://br-theme.com/preview/jhon
     Description: One page resume, cv, portfolio, creative html template.
     Author: Rathin Barmon 
-    Version: 1.0.0
-    
+    Version: 1.0.0 
 	
 	1.Default css
 	2.Navigation 
@@ -37,35 +35,35 @@
     h4 [ All ]      Color: #000                     
     p  [ ALL ]      Color: #000
     a  [ Normal ]   Color: #111              
-    a-1[ Normal ]   Color: #000              
-
+    a-1[ Normal ]   Color: #000   
 ----------------------------------------------------------*/
 /*--------------------------------------------------------
 [Typography]
 
 Body : 
-    font-family:    sans-serif;
+    font-family:    'Open Sans', sans-serif;
     font-size:      14px;
 
 Header:
-    font-family: 	sans-serif;
+    font-family: 	'Open Sans', sans-serif;
     font-size:      30px;
 
 Section Title:
-    font-family:	sans-serif;
+    font-family:	'Open Sans', sans-serif;
     font-size:      30px;
 
 p:  
-    font-family:    sans-serif;
+    font-family:    'Open Sans', sans-serif;
     font-size:      15px;
 
-Notes:  This Template Defult [ font-family: sans-serif; ] [ font-size: 14px; ]
+Notes:  This Template Defult [ font-family: 'Open Sans', sans-serif; ] [ font-size: 14px; ]
 /*==================
 1. Default css
 ====================*/
 html, body {height: 100%;font-size: 14px}
   
 body { 
+	font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     font-weight: 400;
     line-height: 21px;
@@ -94,8 +92,7 @@ h6 {
     text-transform: uppercase; 
 }
 p {
-    margin-bottom: 10px;
-    /*! line-height: 24px; */
+    margin-bottom: 10px; 
 }
 img {
     max-width: 100%;
@@ -165,6 +162,16 @@ section{
 .display-table-cell {
     vertical-align: middle;
     display: table-cell;
+}
+.vbox-prev { 
+    background: url(../../images/venobox/prev.gif) center center no-repeat;
+}
+.vbox-next { 
+    background: url(../../images/venobox/next.gif) center center no-repeat;
+}
+.vbox-close { 
+    background: url(../../images/venobox/close.gif) no-repeat #161617; 
+	background-position: 10px center !important;
 }
 /*==================
 	End Default css
@@ -982,7 +989,7 @@ section{
 	outline: none;
     font-size: 18px;
     color: #000;
-    font-family: "msyi";
+    font-family: 'Open Sans', sans-serif;
     padding: 15px 10px;
     border: none;
     border-bottom: 1px solid #444;
@@ -1002,7 +1009,7 @@ section{
 	color: #000;
 	border: 1px solid #000;
 	font-size: 18px;
-	font-family: "segoeui";
+	font-family: 'Open Sans', sans-serif;
 	padding: 10px 40px; 
 	cursor: pointer;
 	outline: none;
@@ -1065,29 +1072,4 @@ section{
 }  
 /*==================
 	End Scroll to  top
-====================*/   
-/*==================
-	Demo Vew
-====================*/   
-.single-view {
-	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
-	-webkit-transition: all .3s ease 0s;
-    -moz-transition: all 0.3s ease 0s;
-    -o-transition: all 0.3s ease 0s;
-    transition: all 0.3s ease 0s;
-}
-.single-view-image img {
-	height: 280px;
-}
-.single-view:hover> .single-view-image img  {
-	opacity:.8;
-}
-.single-view-content {
-	padding: 15px; 
-}
-.single-view-content h4 {
-	margin-bottom: 0px;
-}
-/*==================
-	End Demo View
 ====================*/    
