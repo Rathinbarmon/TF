@@ -57,9 +57,13 @@ p:
     font-size:      15px;
 
 Notes:  This Template Defult [ font-family: 'Open Sans', sans-serif; ] [ font-size: 14px; ]
+------------------------------------------------------------------------------*/
+
 /*==================
 1. Default css
 ====================*/
+
+
 html, body {height: 100%;font-size: 14px}
   
 body { 
@@ -69,31 +73,23 @@ body {
     line-height: 21px;
     color: #777777;
     background-color: #fff;
-}
+} 
 h1,
 h2,
 h3,
 h4,
 h5,
-h6,
-p {
-    margin-top: 0px;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    margin-bottom: 15px;
-    color: #333;
+h6{
+    margin-bottom: 10px;
+    color: #000;
     font-weight: 700;
     letter-spacing: 1px;
     text-transform: uppercase; 
 }
-p {
-    margin-bottom: 10px; 
-}
+p{
+    margin-bottom: 10px;
+    color: #000; 
+} 
 img {
     max-width: 100%;
     height: auto;
@@ -132,20 +128,23 @@ section{
 .section-title h4{
 	text-transform:uppercase; 
 	font-size: 28px;
+	margin: 0px;
 }
 .section-title p {
     width: 70%;
     left: 0px;
-    top: 0px;
-    padding: 0px 100px;
+    top: 8px;
+    padding: 10px 100px;
     margin: 0px auto; 
+    font-weight: normal;
+    letter-spacing: 0;
 } 
 .section-borders span{   
 	display:inline-block; 
 }
 .section-borders  span.black-border{  
 	background:#1EC21E;   
-	width: 100px;
+	width: 80px;
 	height: 1px;
 }
 .bg-gray{
@@ -189,7 +188,8 @@ section{
 	padding: 8px;
 } 
 .logo-area h2 {
-    margin-bottom: 0px;
+    margin: 0px;
+    padding: 0px;
 }
 #nav {
 	padding: 0px !important;
@@ -522,6 +522,12 @@ section{
 }
 .about-mecontent h4{
     font-size: 20px;
+    margin: 0px;
+    padding-bottom: 10px;
+}
+.about-mecontent {
+    color: #000;
+    margin: 0px;
 }
 .about-mecontent ul {
 	list-style: none;
@@ -535,11 +541,17 @@ section{
 .about-mecontent ul li  span{ 
 	padding-left:30px ;
 }
+
+.about-mecontent ul li {   
+	color: #000;
+    font-size: 16px;
+}
 .about-mecontent ul li:before {
-	content: "\f0a4";
-	font-family: fontAwesome;
 	position:absolute;
-	color: #1EC21E;
+    content: "\f0a4";
+	font-family: fontAwesome; 
+	font-size: 16px;
+    color: #1EC21E;
 } 
 .small-des {
 	margin-top: 40px;
@@ -592,15 +604,26 @@ section{
 .pro{
 	height:3px;
 	border-radius:0px;
+	background: #fff;
+	box-shadow: none;
 }
 .progress-info{
 	margin-top: 5px;
     line-height: 4;
 }
+.progress-bars {
+    margin-top: 40px;
+}
 .progress-image-area img{
 	width: 100%;
 	max-height: 420px;
 } 
+.progress-info span {
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+}
 .awards {
 	padding-bottom: 20px;
 }
@@ -639,6 +662,7 @@ section{
 	text-align:center;
 	background-position: center;
 	z-index: -1;
+	padding: 80px 0px;
 }
 .newsletter::before{
 	position: absolute;
@@ -654,6 +678,7 @@ section{
 	font-size:28px;
 	color: #fff;
 	font-weight: 700;
+	margin: 0px;
 }
 .btn-shinny{
 	padding-top:50px;
@@ -714,12 +739,12 @@ section{
     width: 80px;
 }
 .video-area h3 {
-    color: #ffffff;
-    font-size: 18px;
+    color: #ffffff; 
     font-weight: 700;
     line-height: 24px;
     margin-bottom: 0;
-    margin-top: 20px;
+    margin-top: 30px;
+    text-transform: uppercase;
 }  
 /*==================
 	End Pop up Vedio
@@ -748,14 +773,14 @@ section{
 .single-services:hover > i{
     color: #1EC21E;
 }
-.single-services i{
-	font-size:100px;   
-	font-size: 70px;
-	padding-bottom:2px; 
+.single-services i{ 
+	font-size: 50px;
+	padding-bottom:5px; 
 }
 .single-services-content p {
     font-size: 14px;
     line-height: 20px;
+    margin: 0px;
 } 
 .single-services-content{
 	color:#000 !important;
@@ -763,8 +788,9 @@ section{
 	font-size:12px;
 } 
 .single-services-content h4{ 
-	font-size:16px;
-	padding:10px;
+	font-size:18px;
+	padding-bottom:10px;
+	margin: 0px;
 } 
 /*==================
 	End Services
@@ -1034,6 +1060,8 @@ section{
 } 
 .address h2{
     color: #fff;
+    margin: 0px;
+    padding-bottom: 15px;
 }
 .copy-right{ 
 	background: #1EC21E;
@@ -1042,6 +1070,7 @@ section{
 }
 .copy-right p {
 	font-size: 16px;
+	margin: 0px;
 }
 .copy-right p a {
 	text-decoration: none;
