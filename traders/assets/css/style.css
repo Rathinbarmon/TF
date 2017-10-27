@@ -410,7 +410,8 @@ End Slider
 /*================================
 5.Introducing
 ==================================*/ 
-.introducing-area {} .introducing-content {
+.introducing-area {} 
+.introducing-content {
     padding: 50px 0px;
 }
 .introducing-content h2 {
